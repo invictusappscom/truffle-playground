@@ -1,0 +1,22 @@
+{
+  "name": "playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "truffle exec --network=forked scripts/weth.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/invictusappscom/truffle-playground.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/invictusappscom/truffle-playground/issues"
+  },
+  "homepage": "https://github.com/invictusappscom/truffle-playground#readme"
+}

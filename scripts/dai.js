@@ -11,6 +11,7 @@ module.exports = async (callback) => {
   // console.log(ins)
 
   let result = await ins.contract.methods.transfer(toMyAddress, '1000000000000000000').send({ from: fromRichAddress })
+  // let result = await ins.transfer(toMyAddress, '1000000000000000000').send({ from: fromRichAddress })
   console.log(result)
 
   callback()
